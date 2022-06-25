@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function App() {
-  const [country, setCountry] = useState('germany');
+  const [country, setCountry] = useState('');
   const [countryData, setCountryData] = useState('');
   const [additionalData, setAdditionalData] = useState('')
   const [isEmpty, setIsEmpty] = useState(true)
