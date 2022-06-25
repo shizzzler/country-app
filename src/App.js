@@ -8,7 +8,7 @@ function App() {
   const [throwErr, setThrowErr] = useState(null);
   const [darkMode, setDarkMode] = useState(false)
 
-  
+  // this fetches two data from different versions of the same api
   const fetchData = () => {
     fetch(`https://restcountries.com/v2/name/${country}`)
       .then(res => {
